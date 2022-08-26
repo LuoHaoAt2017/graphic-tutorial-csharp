@@ -1,4 +1,4 @@
-﻿using graphic_tutorial_csharp.chapter1;
+﻿using graphic_tutorial_csharp.chapter2;
 
 namespace graphic_tutorial_csharp
 {

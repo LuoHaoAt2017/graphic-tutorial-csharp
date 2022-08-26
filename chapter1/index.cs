@@ -53,27 +53,7 @@ namespace graphic_tutorial_csharp.chapter1
 
         public void print()
         {
-            int status = 3;
-            Rainbow rainbow;
-            if (Enum.IsDefined(typeof(Rainbow), status))
-            {
-                rainbow = (Rainbow)3;
-            } else
-            {
-                rainbow = Rainbow.Unknown;
-            }
 
-            string[] names = Enum.GetNames(typeof(Rainbow));
-            foreach(string name in names)
-            {
-                Rainbow value = (Rainbow)Enum.Parse(typeof(Rainbow), name);
-                Console.WriteLine("{0}:{1:D}", name, value);
-            }
-            var values = Enum.GetValues(typeof(Rainbow));
-            foreach(Rainbow value in values)
-            {
-                Console.WriteLine("{0}:{1:D}", value, value);
-            }
         }
 
         public void printEnum()
@@ -100,6 +80,32 @@ namespace graphic_tutorial_csharp.chapter1
             {
                 int x = stack.Pop();
                 Console.WriteLine("stack elem: {0}", x);
+            }
+        }
+
+        public void TestEnum()
+        {
+            int status = 3;
+            Rainbow rainbow;
+            if (Enum.IsDefined(typeof(Rainbow), status))
+            {
+                rainbow = (Rainbow)3;
+            }
+            else
+            {
+                rainbow = Rainbow.Unknown;
+            }
+
+            string[] names = Enum.GetNames(typeof(Rainbow));
+            foreach (string name in names)
+            {
+                Rainbow value = (Rainbow)Enum.Parse(typeof(Rainbow), name);
+                Console.WriteLine("{0}:{1:D}", name, value);
+            }
+            var values = Enum.GetValues(typeof(Rainbow));
+            foreach (Rainbow value in values)
+            {
+                Console.WriteLine("{0}:{1:D}", value, value);
             }
         }
     }
