@@ -21,3 +21,10 @@ D:/github/graphic-tutorial-csharp/obj/Debug/net6.0/ref/graphic-tutorial-csharp.d
 /Users/luohao/github/graphic-tutorial-csharp/obj/Debug/net6.0/graphic-tutorial-csharp.dll
 /Users/luohao/github/graphic-tutorial-csharp/obj/Debug/net6.0/ref/graphic-tutorial-csharp.dll
 /Users/luohao/github/graphic-tutorial-csharp/obj/Debug/net6.0/graphic-tutorial-csharp.pdb
+/Users/luohao/github/graphic-tutorial-csharp/bin/Debug/net6.0/graphic-tutorial-csharp
+/Users/luohao/github/graphic-tutorial-csharp/bin/Debug/net6.0/graphic-tutorial-csharp.deps.json
+/Users/luohao/github/graphic-tutorial-csharp/bin/Debug/net6.0/graphic-tutorial-csharp.runtimeconfig.json
+/Users/luohao/github/graphic-tutorial-csharp/bin/Debug/net6.0/graphic-tutorial-csharp.dll
+/Users/luohao/github/graphic-tutorial-csharp/bin/Debug/net6.0/graphic-tutorial-csharp.pdb
+/Users/luohao/github/graphic-tutorial-csharp/obj/Debug/net6.0/refint/graphic-tutorial-csharp.dll
+/Users/luohao/github/graphic-tutorial-csharp/obj/Debug/net6.0/graphic-tutorial-csharp.genruntimeconfig.cache

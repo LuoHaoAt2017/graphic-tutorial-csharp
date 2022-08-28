@@ -14,13 +14,12 @@
         "outputPath": "/Users/luohao/github/graphic-tutorial-csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luohao/.config/NuGet/NuGet.Config"
+          "/Users/luohao/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "http://nexus-h3.h3yun.com:8081/nexus/service/local/nuget/h3yun/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
