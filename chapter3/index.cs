@@ -10,7 +10,6 @@ namespace graphic_tutorial_csharp.chapter3
 {
     class Chapter
     {
-
         public void print()
         {
             string[] colors = { "Red", "Green", "Blue " };
@@ -21,30 +20,72 @@ namespace graphic_tutorial_csharp.chapter3
                 Console.WriteLine(elem);
             }
 
-            var enumerator = new MagicBox(colors);
-            if (enumerator != null)
+            ColorBox colorBox = new ColorBox(colors);
+            if (colorBox != null)
             {
-                foreach (string elem in enumerator)
+                foreach (string elem in colorBox)
                 {
                     Console.WriteLine(elem);
                 }
             }
+
+            MagicBox magicBox = new MagicBox(colors);
+            if (magicBox != null)
+            {
+                foreach (string elem in magicBox)
+                {
+                    Console.WriteLine(elem);
+                }
+            }
+
+            IEnumerable<string> enumerator = magicBox.BlackAndWhite(colors);
+            foreach (string elem in enumerator)
+            {
+                Console.WriteLine(elem);
+            }
+
+
         }
 
-        class MagicBox : IEnumerable
+        // 枚举器的迭代器模式
+        class ColorBox
+        {
+            private string[] _colors;
+            public ColorBox(string[] colors)
+            {
+                this._colors = colors;
+            }
+            // 返回枚举器
+            public IEnumerator<string> GetEnumerator()
+            {
+                return BlackAndWhite(_colors);
+            }
+
+            public IEnumerator<string> BlackAndWhite(string[] colors)
+            {
+                for (int i = 0; i < colors.Length; i++)
+                {
+                    yield return colors[i];
+                }
+            }
+        }
+
+        // 可枚举类型的迭代器模式
+        class MagicBox
         {
             private string[] _colors;
             public MagicBox(string[] colors)
             {
                 this._colors = colors;
             }
-
-            public IEnumerator GetEnumerator()
+            // 返回枚举器
+            public IEnumerator<string> GetEnumerator()
             {
-                return BlackAndWhite(_colors);
+                IEnumerable<string> enumerable = BlackAndWhite(_colors);
+                return enumerable.GetEnumerator();
             }
 
-            public IEnumerator<string> BlackAndWhite(string[] colors)
+            public IEnumerable<string> BlackAndWhite(string[] colors)
             {
                 for (int i = 0; i < colors.Length; i++)
                 {
