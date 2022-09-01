@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/luohao/.nuget/packages/": {}
+    "C:\\Users\\hao.luo01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luohao/github/graphic-tutorial-csharp/graphic-tutorial-csharp.csproj",
+      "projectUniqueName": "D:\\github\\graphic-tutorial-csharp\\graphic-tutorial-csharp.csproj",
       "projectName": "graphic-tutorial-csharp",
-      "projectPath": "/Users/luohao/github/graphic-tutorial-csharp/graphic-tutorial-csharp.csproj",
-      "packagesPath": "/Users/luohao/.nuget/packages/",
-      "outputPath": "/Users/luohao/github/graphic-tutorial-csharp/obj/",
+      "projectPath": "D:\\github\\graphic-tutorial-csharp\\graphic-tutorial-csharp.csproj",
+      "packagesPath": "C:\\Users\\hao.luo01\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\graphic-tutorial-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/luohao/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hao.luo01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
