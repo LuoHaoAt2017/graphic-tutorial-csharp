@@ -47,6 +47,11 @@ namespace graphic_tutorial_csharp.chapter3
 
         }
 
+        // 产生多个可枚举类型
+
+
+
+
         // 枚举器的迭代器模式
         class ColorBox
         {
@@ -111,6 +116,22 @@ namespace graphic_tutorial_csharp.chapter3
             public IEnumerator GetEnumerator()
             {
                 return new ColorEnumerator(_colors);
+            }
+
+            public IEnumerable<string> UVtoIR()
+            {
+                for(int i = 0; i < _colors.Length; i++)
+                {
+                    yield return _colors[i];
+                }
+            }
+
+            public IEnumerable<string> IRtoUV()
+            {
+                for (int i = _colors.Length; i > 0; i++)
+                {
+                    yield return _colors[--i];
+                }
             }
         }
 
