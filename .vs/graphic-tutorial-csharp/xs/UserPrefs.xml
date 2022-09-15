@@ -1,5 +1,28 @@
 ﻿<Properties StartupConfiguration="{35792131-68D5-4231-89F1-BFB7238FCD2C}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="chapter5/index.cs">
+    <Files>
+      <File FileName="chapter1/index.cs" Line="197" Column="2" />
+      <File FileName="chapter2/index.cs" Line="1" Column="1" />
+      <File FileName="chapter3/index.cs" Line="23" Column="45" />
+      <File FileName="chapter4/index.cs" Line="1" Column="1" />
+      <File FileName="chapter5/index.cs" Line="9" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="graphic-tutorial-csharp" expanded="True">
+            <Node name="graphic-tutorial-csharp" expanded="True">
+              <Node name="chapter3" expanded="True" />
+              <Node name="chapter4" expanded="True" />
+              <Node name="chapter5" expanded="True">
+                <Node name="index.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.graphic-tutorial-csharp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
